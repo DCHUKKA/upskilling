@@ -1,0 +1,10 @@
+package day5.multithreads;
+
+public class MultiThreadingDemo {
+	public void run()
+	{
+		System.out.println("Thread:"+Thread.currentThread().getId()+"is running");
+	}
+	    
+	}
+}

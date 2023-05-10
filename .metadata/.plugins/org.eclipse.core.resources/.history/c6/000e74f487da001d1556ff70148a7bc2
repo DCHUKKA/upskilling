@@ -1,0 +1,13 @@
+package javaupskilling;
+
+public class SumOfNumInDoWhile {
+public static void main(String[] args) {
+	int d=10;
+	int sum=0;
+	
+	do{sum+=d;d<=10}
+		System.out.println("The sum is"+sum);
+	}while(d<=10)
+	
+}
+}

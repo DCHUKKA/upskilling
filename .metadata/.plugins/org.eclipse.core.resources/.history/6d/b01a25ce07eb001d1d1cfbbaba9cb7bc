@@ -1,0 +1,16 @@
+package day5;
+
+public class Threadddd extends {
+	public void run() {
+		System.out.println("thread is running");
+	}
+	public static void main(String[] args) {
+		Thread obj=new Thread();
+	 Thread t=new Thread(obj,"Hello");
+	t.start();
+	 String str = t.getName();
+		 System.out.println(str);
+}
+		
+}	
+

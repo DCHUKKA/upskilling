@@ -1,0 +1,9 @@
+package javaupskilling;
+
+public class ConvertStrToDoub {
+public static void main(String[] args) {
+	String d="229";
+	double i=Double.parseDouble("229");  ;
+	System.out.println(d);
+}
+}

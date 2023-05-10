@@ -1,0 +1,38 @@
+package day5.runnable;
+   class Sample implements Runnable{
+	   public void run() {
+		   for(int i=0;i<=5;i++)
+		   {
+			   System.out.println("Hi");
+		   }
+	   }
+   }
+		  
+   class Sample2 extends Thread{
+	   public void run() {
+		   for(int i=0;i<=5;i++)
+		   {
+			   System.out.println("DEFGH");
+		   }
+	   }
+   }
+   
+public class ThreadMain {
+	public static void main(String[] args) {
+	
+
+		
+		Sample2 s2=new Sample2();
+		s2.start();
+		Sample s=new Sample();
+		Thread t=new Thread(s);
+			try {
+		Thread.sleep(10);
+	}catch(InterruptedException e) {
+		e.printStackTrace();
+		
+}
+			t.start();
+
+		    }
+}

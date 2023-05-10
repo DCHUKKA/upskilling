@@ -1,0 +1,5 @@
+package day5.threadsleep;
+
+public class ThreadPriorityAndSleep {
+
+}

@@ -1,0 +1,20 @@
+package collections;
+
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class SetDemo {
+public static void main(String[] args) {
+	Set<Integer> nums = new LinkedHashSet<Integer>();
+	nums.add(22);
+	nums.add(33);
+	nums.add(44);
+	nums.add(22);
+	nums.add(33);
+	for(int n : nums) {
+		System.out.println(n);
+	}
+}
+}

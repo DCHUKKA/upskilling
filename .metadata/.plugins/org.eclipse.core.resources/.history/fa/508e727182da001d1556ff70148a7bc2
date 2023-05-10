@@ -1,0 +1,10 @@
+package javaupskilling;
+
+public class Number1ToThatInteger {
+public static void main(String[] args) {
+	int d=10;
+	for(d=1;d<=10;d++) {
+		System.out.println(d);
+	}
+}
+}

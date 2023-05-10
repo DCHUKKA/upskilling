@@ -1,0 +1,14 @@
+package day5;
+
+public class Threadddd extends Thread{
+	public void run() {
+		System.out.println("Welcome");
+	}
+	public static void main(String[] args) {
+		Threadddd td=new Threadddd();
+		td.start();
+;
+}
+		
+}	
+

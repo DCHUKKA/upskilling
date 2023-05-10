@@ -1,0 +1,21 @@
+package collections;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+
+public class SetDemo {
+public static void main(String[] args) {
+	Set<Integer> nums = new HashSet<Integer>();
+	nums.add(22);
+	nums.add(33);
+	nums.add(44);
+	nums.add(55);
+	nums.add(33);
+	
+	Iterator<Integer> values = nums.iterator();
+	while(values.hasNext());
+	System.out.println(values.next());
+	}
+}

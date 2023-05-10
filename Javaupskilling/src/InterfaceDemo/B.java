@@ -1,0 +1,13 @@
+package InterfaceDemo;
+
+public class B implements A{
+	public void show() {
+		System.out.println("in show");
+	}
+	public void config() {
+		
+		System.out.println("in config");
+	}
+	
+
+}
